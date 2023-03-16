@@ -25,3 +25,15 @@ cart.click()
 my_acc = driver.find_element(By.XPATH,'//*[@id="site-navigation"]/div[1]/ul/li[4]/a')
 time.sleep(3)
 my_acc.click()
+
+
+# How to find css selector in Console:  $$('.nameoftheclass') or $$('nav.nameoftheclass')
+
+# '.' is for class
+# '#' is for id
+
+# Example find the nav bar
+# css using id = #site-navigation
+# css using id = nav#site-navigation
+# css using class = .main-navigation
+# css using class = nav.main-navigation
